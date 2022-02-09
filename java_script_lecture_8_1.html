@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./java_script_lec_8_1_binding.js"></script>
+
+    <style>
+      #todos li button {
+        color: red;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="inputnewtodo" type="text" />
+
+    <!-- this is what we did in the previous lecture -->
+
+    <!-- <button id="todo" onclick="updated_button()">Todo Button</button> -->
+
+    <!-- now do this same thing with a new method known as bindings -->
+
+    <!-- bind two buttons together -->
+
+    <button id="btnadd">Todo Button</button>
+
+    <!-- now comment the other button -->
+
+    <!-- and implement the bindings of the todo button without using the bindings button -->
+
+    <!-- <button id="bindings" onclick="updated_bindings_button()">
+      bindings button -->
+
+    <ul id="todos">
+      <li>Coffee <button onclick="deletetodo(event)">delete</button></li>
+      <li>Buy Milk <button onclick="deletetodo(event)">delete</button></li>
+      <li>Feed Cat <button onclick="deletetodo(event)">delete</button></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.error {
+  border: 1px solid red;
+}
+
+/* by this we got to know that addClass("error") means that we made a class whcich has the attribute value 
+
+of error yahni keh error keh naam sey apne ek class add kardih hai ... */
+
+/* styling hamari css keh saath hogih */

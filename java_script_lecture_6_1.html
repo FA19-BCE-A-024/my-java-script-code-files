@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- yeh java script ki file merey page key saath bind hogya hai -->
+
+    <script src="./java_script_lec_6_1.js"></script>
+  </head>
+  <body>
+    <!-- events are made in html or in js file -->
+    <!-- events are implemented on the web page -->
+    <!-- and their output is shown on the java script console -->
+
+    <!-- in this method i have made an event thorugh the js file and attached it here  -->
+
+    <!-- <button onclick="button_clicked()">Click Me</button> -->
+
+    <!-- in this method i have made an event thorugh the html file by directly typing consol.log() 
+      no need of js file in this case -->
+
+    <!-- <button onmouseover="console.log('mouse over')">Click Me</button> -->
+
+    <!-- now implement both methods calling a function through console.log() and 
+    directly using cosole.log() and writing inide it no need to call a function-->
+
+    <!-- i have binded three events with my button -->
+
+    <button
+      onclick="button_clicked()"
+      onmouseover="console.log('mouse over')"
+      onmouseout="console.log('mouse left')"
+    >
+      Click Me
+    </button>
+  </body>
+</html>
